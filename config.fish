@@ -1,0 +1,4 @@
+set -x PATH $PATH /sbin/
+set -U EDITOR mvim
+set RUBY_GC_MALLOC_LIMIT 60000000
+set RUBY_FREE_MIN 200000
