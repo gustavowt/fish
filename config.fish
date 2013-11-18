@@ -1,5 +1,6 @@
 set -x PATH /usr/local/bin $PATH
 set -x PATH /usr/local/heroku/bin $PATH
+set -x PATH /usr/local/share/npm/bin $PATH
 
 set -U EDITOR mvim
 set RUBY_GC_MALLOC_LIMIT 60000000
