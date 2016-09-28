@@ -1,6 +1,7 @@
 set -x PATH /usr/local/bin $PATH
 set -x PATH /usr/local/heroku/bin $PATH
 set -x PATH /usr/local/share/npm/bin $PATH
+set -x PATH /Applications/Postgres.app/Contents/Versions/9.4/bin $PATH
 
 set -U EDITOR mvim
 set RUBY_GC_MALLOC_LIMIT 60000000
@@ -17,3 +18,4 @@ alias spec='bundle exec spec'
 alias rspec='bundle exec rspec'
 alias brails='bundle exec rails'
 alias clear_drive='rm -rf .fseventsd ._.Trashes .Trashes .Spotlight-V100'
+alias rtest='env SPEC=true ruby -Itest'
