@@ -8,3 +8,5 @@ Fish functions and configs
 ```shell
 git clone https://github.com/gustavowt/fish ~/.config/fish
 ```
+
+### Alias
