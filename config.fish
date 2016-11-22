@@ -2,6 +2,7 @@ set -x PATH /usr/local/bin $PATH
 set -x PATH /usr/local/heroku/bin $PATH
 set -x PATH /usr/local/share/npm/bin $PATH
 set -x PATH /Applications/Postgres.app/Contents/Versions/9.4/bin $PATH
+set -x PATH $HOME/.npm-packages/bin $PATH
 
 set -U EDITOR mvim
 set RUBY_GC_MALLOC_LIMIT 60000000
