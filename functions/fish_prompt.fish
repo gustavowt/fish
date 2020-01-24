@@ -11,5 +11,5 @@ function get_ruby_version
 end
 
 function fish_prompt
-    printf '%s%s %s[%s]%s %s%s %s%s$ ' (set_color green) (whoami) (set_color blue) (prompt_pwd) (set_color purple) (get_ruby_version) (set_color red) (parse_git_branch) (set_color normal)
+    printf '%s%s %s[%s]%s %s%s %s%s$ ' (set_color green) (whoami) (set_color brblue) (prompt_pwd) (set_color purple) (get_ruby_version) (set_color red) (parse_git_branch) (set_color normal)
 end
